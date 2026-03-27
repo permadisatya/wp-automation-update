@@ -1,0 +1,792 @@
+{
+  "introPage": {
+    "showIntroPage": true,
+    "startButtonText": "Mulai kuis.",
+    "introduction": "<p style=\"text-align:center;\">Yuk cek pemahamanmu lewat kuis 1 menit ini.</p><p style=\"text-align:center;\">Tenang, ini bukan ujian, hanya cara seru untuk mengingat poin penting 😊</p>",
+    "title": "QUIZ: Kenapa Satu Gejala Bisa Punya Banyak Penyebab?"
+  },
+  "progressType": "dots",
+  "passPercentage": 50,
+  "disableBackwardsNavigation": false,
+  "randomQuestions": false,
+  "endGame": {
+    "showResultPage": true,
+    "showSolutionButton": true,
+    "showRetryButton": true,
+    "noResultMessage": "Selesai!",
+    "message": "Skor kamu:",
+    "scoreBarLabel": "Selamat! @finals out of @totals points",
+    "overallFeedback": [
+      {
+        "from": 0,
+        "to": 59,
+        "feedback": "Body Signal Learner"
+      },
+      {
+        "from": 60,
+        "to": 84,
+        "feedback": "Symptom Pattern Explorer"
+      },
+      {
+        "from": 85,
+        "to": 100,
+        "feedback": "Clinical Context Thinker"
+      }
+    ],
+    "solutionButtonText": "Perlihatkan jawaban",
+    "retryButtonText": "Ulang kembali",
+    "finishButtonText": "Selesai",
+    "submitButtonText": "Submit",
+    "showAnimations": false,
+    "skippable": false,
+    "skipButtonText": "Skip video"
+  },
+  "override": {
+    "checkButton": false
+  },
+  "texts": {
+    "prevButton": "Previous question",
+    "nextButton": "Next question",
+    "finishButton": "Finish",
+    "submitButton": "Submit",
+    "textualProgress": "Question: @current of @total questions",
+    "jumpToQuestion": "Question %d of %total",
+    "questionLabel": "Question",
+    "readSpeakerProgress": "Question @current of @total",
+    "unansweredText": "Unanswered",
+    "answeredText": "Answered",
+    "currentQuestionText": "Current question",
+    "navigationLabel": "Questions",
+    "questionSetInstruction": "Choose question to display"
+  },
+  "questions": [
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Mengapa satu gejala bisa muncul dari banyak penyebab berbeda?",
+        "answers": [
+          {
+            "text": "A. Karena gejala selalu menandakan penyakit serius",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Karena tubuh bekerja sebagai sistem yang saling terhubung",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Karena pemeriksaan medis sering keliru",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Karena gejala tidak ada hubungannya dengan tubuh",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "c2afdc48-75f3-46d8-88aa-5f531e007357",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    },
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Pernyataan mana yang PALING tepat tentang gejala dalam praktik medis?",
+        "answers": [
+          {
+            "text": "A. Gejala adalah diagnosis awal",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Gejala selalu menunjukkan lokasi masalah",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Gejala adalah titik awal evaluasi, bukan kesimpulan",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Gejala hanya penting jika hasil lab abnormal",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "bcbfffa5-850a-4a1f-a3d1-5fd63f621b1b",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    },
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Contoh berikut menunjukkan bahwa satu gejala bisa punya banyak penyebab, KECUALI…",
+        "answers": [
+          {
+            "text": "A. Lemas akibat kurang tidur",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Lemas akibat dehidrasi",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Lemas akibat inflamasi ringan",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Lemas selalu berarti anemia",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "ab63bae0-17ed-4b98-81e3-af74f371cb81",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    },
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Mengapa hasil laboratorium bisa normal meski keluhan tetap ada?",
+        "answers": [
+          {
+            "text": "A. Karena gejala selalu bersifat psikologis",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Karena laboratorium tidak berguna",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Karena tidak semua gangguan bersifat struktural atau terukur",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Karena pasien salah merasakan tubuhnya",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "99e13bbc-8abd-44fa-bebd-1b5f9c2449aa",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    },
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Infeksi, inflamasi, dan alergi bisa menimbulkan gejala yang mirip karena…",
+        "answers": [
+          {
+            "text": "A. Ketiganya selalu disebabkan oleh kuman",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Ketiganya melibatkan sistem imun dengan mekanisme berbeda",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Ketiganya selalu membutuhkan obat yang sama",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Ketiganya hanya terjadi saat tubuh lemah",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "65260afe-08e8-4706-9cfe-8773e539acd2",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    },
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Pendekatan PALING bijak dalam menyikapi satu gejala yang belum jelas penyebabnya adalah…",
+        "answers": [
+          {
+            "text": "A. Langsung mencari satu penyakit yang paling cocok",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Mengabaikan gejala selama tidak parah",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Mengamati pola, konteks, dan perubahan dari waktu ke waktu",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Mengandalkan satu hasil pemeriksaan saja",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "4489b2b0-df54-4305-8f10-05d6cd554994",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    },
+    {
+      "library": "H5P.MultiChoice 1.16",
+      "params": {
+        "question": "Question: Kapan satu gejala perlu dievaluasi lebih lanjut?",
+        "answers": [
+          {
+            "text": "A. Setiap kali terasa tidak nyaman",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "B. Hanya jika hasil lab abnormal",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "C. Jika menetap, memburuk, atau mengganggu fungsi harian",
+            "correct": true,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          },
+          {
+            "text": "D. Jika orang lain mengatakan itu berbahaya",
+            "correct": false,
+            "tipsAndFeedback": {
+              "tip": "",
+              "chosenFeedback": "",
+              "notChosenFeedback": ""
+            }
+          }
+        ],
+        "behaviour": {
+          "enableRetry": true,
+          "enableSolutionsButton": true,
+          "enableCheckButton": true,
+          "type": "auto",
+          "singlePoint": false,
+          "randomAnswers": true,
+          "showSolutionsRequiresInput": true,
+          "confirmCheckDialog": false,
+          "confirmRetryDialog": false,
+          "autoCheck": false,
+          "passPercentage": 100,
+          "showScorePoints": true
+        },
+        "media": {
+          "disableImageZooming": false
+        },
+        "overallFeedback": [
+          {
+            "from": 0,
+            "to": 100
+          }
+        ],
+        "UI": {
+          "checkAnswerButton": "Check",
+          "submitAnswerButton": "Submit",
+          "showSolutionButton": "Show solution",
+          "tryAgainButton": "Retry",
+          "tipsLabel": "Show tip",
+          "scoreBarLabel": "You got :num out of :total points",
+          "tipAvailable": "Tip available",
+          "feedbackAvailable": "Feedback available",
+          "readFeedback": "Read feedback",
+          "wrongAnswer": "Wrong answer",
+          "correctAnswer": "Correct answer",
+          "shouldCheck": "Should have been checked",
+          "shouldNotCheck": "Should not have been checked",
+          "noInput": "Please answer before viewing the solution",
+          "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+          "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+          "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+        },
+        "confirmCheck": {
+          "header": "Finish ?",
+          "body": "Are you sure you wish to finish ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Finish"
+        },
+        "confirmRetry": {
+          "header": "Retry ?",
+          "body": "Are you sure you wish to retry ?",
+          "cancelLabel": "Cancel",
+          "confirmLabel": "Confirm"
+        }
+      },
+      "subContentId": "fd4dd7f4-f7d6-44aa-8ab2-444200949015",
+      "metadata": {
+        "contentType": "Multiple Choice",
+        "license": "U",
+        "title": "Untitled Multiple Choice"
+      }
+    }
+  ]
+}

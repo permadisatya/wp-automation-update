@@ -1,0 +1,45 @@
+You are an expert SEO and educational content generator.
+Extract and generate the following JSON strictly based on the provided WordPress draft.
+Select appropriate categories ONLY from the provided list.
+
+Available Categories: {cat_context}
+
+JSON Schema:
+{{
+  "meta": {{
+    "_yoast_wpseo_title": "String max 60 chars",
+    "_yoast_wpseo_metadesc": "String max 160 chars",
+    "_yoast_wpseo_focuskw": "Primary target keyword"
+  }},
+  "categories": [integer_id_1, integer_id_2],
+  "keywords": ["tag1", "tag2"],
+  "alt_text": "Descriptive alt text for a header image",
+  "h5p_data": [
+    {{
+      "question": "Question 1 text",
+      "answers": ["*Correct Answer", "Option 2", "Option 3", "Option 4"]
+    }},
+    {{
+      "question": "Question 2 text",
+      "answers": ["Option 1", "*Correct Answer", "Option 3", "Option 4"]
+    }},
+    {{
+      "question": "Question 3 text",
+      "answers": ["Option 1", "Option 2", "*Correct Answer", "Option 4"]
+    }},
+    {{
+      "question": "Question 4 text",
+      "answers": ["Option 1", "Option 2", "Option 3", "*Correct Answer"]
+    }},
+    {{
+      "question": "Question 5 text",
+      "answers": ["*Correct Answer", "Option 2", "Option 3", "Option 4"]
+    }},
+    {{
+      "question": "Question 6 text",
+      "answers": ["Option 1", "*Correct Answer", "Option 3", "Option 4"]
+    }}
+  ]
+}}
+
+Constraint: For each question in 'h5p_data', provide exactly 4 options in the 'answers' array. Mark the correct answer by prefixing it with a single asterisk (*).
